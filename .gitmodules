@@ -1,0 +1,15 @@
+[submodule "MKS-TFT28-Source"]
+	path = MKS-TFT28-Source
+	url = https://github.com/makerbase-mks/MKS-TFT28-32-Firmware
+[submodule "MKS-TFT-Releases"]
+	path = MKS-TFT-Releases
+	url = https://github.com/makerbase-mks/MKS-TFT
+[submodule "MKS-WIFI"]
+	path = MKS-WIFI
+	url = https://github.com/makerbase-mks/MKS-WIFI
+[submodule "MKS-Power-Control"]
+	path = MKS-Power-Control
+	url = https://github.com/makerbase-mks/MKS-Power-Control
+[submodule "MKS-GEN_L"]
+	path = MKS-GEN_L
+	url = https://github.com/makerbase-mks/MKS-GEN_L
