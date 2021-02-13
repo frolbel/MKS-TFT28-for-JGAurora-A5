@@ -13,3 +13,6 @@
 [submodule "MKS-GEN_L"]
 	path = MKS-GEN_L
 	url = https://github.com/makerbase-mks/MKS-GEN_L
+[submodule "MKS-WIFI-CuraPlugin"]
+	path = MKS-WIFI-CuraPlugin
+	url = https://github.com/makerbase-mks/mks-wifi-plugin
