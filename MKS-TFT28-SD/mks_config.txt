@@ -30,7 +30,7 @@
 #pause position (-1 is invalid; Z-axis is relative position)
 >cfg_XPOS:-1
 >cfg_YPOS:-1
->cfg_ZADD:5
+>cfg_ZADD:10
 
 #-----------------------------------------------------------------------
 #########  Advanced Function Option  ##################################
@@ -48,7 +48,7 @@
 >cfg_PB0_trigger_Level:0
 
 #set PB1 signal (high level:1; low level:0)
->cfg_PB1_trigger_Level:0
+>cfg_PB1_trigger_Level:1
 
 #set error range of Z-axis on breakpoints recovery 
 >cfg_breakpoint_z_error:0.2
@@ -60,16 +60,16 @@
 #the speed to extrude filament(mm/min)
 >cfg_filament_load_speed:1200
 #the lenght to extrude filament (mm)
->cfg_filament_load_length:200
+>cfg_filament_load_length:990
 
 #the speed to retract filament(mm/min)
 >cfg_filament_unload_speed:1200
 #the lenght to retract filament(mm)
->cfg_filament_unload_length:200
+>cfg_filament_unload_length:990
 
 #It is the minimum temperature for filament change.
 It will auto heat up if the current temp doesn't reach the target.
->cfg_filament_load_limit_temperature:200
+>cfg_filament_load_limit_temperature:195
 
 
 #---------------------------------------------------------------------------
@@ -83,14 +83,14 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_auto_leveling_cmd:G28;G29;
 
 #the point number of manual leveling:(3,4,5 point available)
->cfg_point_number:4
+>cfg_point_number:5
 
 #the coordinates of 5 point on manual leveling
->cfg_point1:50,50
->cfg_point2:180,50
->cfg_point3:180,180
->cfg_point4:50,180
->cfg_point5:150,150
+>cfg_point1:40,270
+>cfg_point2:270,270
+>cfg_point3:270,40
+>cfg_point4:40,40
+>cfg_point5:155,155
 
 #the travel speed of leveling(mm/min)
 >cfg_leveling_z_speed:1500
@@ -116,7 +116,7 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_wifi_key_code:makerbase
 
 #0:disable cloud service 1:enable cloud service
->cfg_cloud_enable:1
+>cfg_cloud_enable:0
 #cloud service adress
 >cfg_wifi_cloud_host:www.baizhongyun.cn
 #cloud service port
@@ -161,13 +161,17 @@ It will auto heat up if the current temp doesn't reach the target.
 >moreitem_button7_cmd:G28;
 
 #how many "More" button display on screen interface
->morefunc_cnt:0
+>morefunc_cnt:4
 
 #command setting on button1~5
->morefunc1_cmd:G28;
->morefunc2_cmd:G28;
->morefunc3_cmd:G28;
->morefunc4_cmd:G28;
+# PARK
+>morefunc1_cmd:G91;G1 Z10;G28 X0;G90;G1 Y155;
+# PLA
+>morefunc2_cmd:M140 S50;M104 S205;
+# PETG
+>morefunc3_cmd:M140 S65;M104 S235;
+# ABS
+>morefunc4_cmd:M110 S100;M104 S235;
 >morefunc5_cmd:G28;
 >morefunc6_cmd:G28;
 
@@ -187,7 +191,7 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_state_text_color:0xFFFFFF
 
 #the color of file button
->cfg_filename_background_color:0x494949
+>cfg_filename_background_color:0x555555
 
 #the color of file text
 >cfg_filename_color:0xFFFFFF
@@ -215,10 +219,10 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_single_nozzle:0
 
 #For the M110 command plus check, the version of Marlin 1.0.2 and below is set to 1, and the other versions are set to 0.
->cfg_M110_add_checkSum:1
+>cfg_M110_add_checkSum:0
 
 #Enable function of display error message. (no:0; Yes:1）
->cfg_display_eeror_message:0
+>cfg_display_eeror_message:1
 
 #Enable function of babastep. (no:0; Yes:1）
 >cfg_babystep_btn_display:1
