@@ -7,7 +7,7 @@ MKS-TFT28 for JGAurora A5
 
 and current UI:
 
-![MKS-TFT28-LOGO.jpg](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5\MKS-TFT28-UI\MY-WIN8-Tiles\MKS-TFT28-LOGO.jpg)
+![MKS-TFT28-LOGO.jpg](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5/blob/main/MKS-TFT28-UI/MY-WIN8-Tiles/MKS-TFT28-LOGO.jpg)
 
 
 ## Updating firmware
