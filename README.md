@@ -34,7 +34,7 @@ The repository contains the following:
 - [MKS-WIFI-CuraPlugin](https://github.com/makerbase-mks/mks-wifi-plugin/tree/87df6145129c39b1a1a4725bc33b44591b60314f).  
 
 SD card content [MKS-TFT28-SD](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5/MKS-TFT28-SD/) is prepared based on this:  
-[.\MKS-TFT-Releases\MKS-TFT2.8-3.2\TFT28_32_v3.0.6 Release file.rar\TFT28_32_v3.0.6 Release file\Examples\Classic_En_Win8\](https://raw.githubusercontent.com/makerbase-mks/MKS-TFT/eed5a6e1aae4564181d53524c7f54a56a7cdc777/MKS-TFT2.8-3.2/TFT28_32_v3.0.6%20Release%20file.rar)
+[.\MKS-TFT-Releases\MKS-TFT2.8-3.2\TFT28_32_v3.0.6 Release file.rar\TFT28_32_v3.0.6 Release file\Examples\Classic_En_Win8](https://raw.githubusercontent.com/makerbase-mks/MKS-TFT/eed5a6e1aae4564181d53524c7f54a56a7cdc777/MKS-TFT2.8-3.2/TFT28_32_v3.0.6%20Release%20file.rar)
 
 ## History of firmware changes
 
