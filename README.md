@@ -17,7 +17,7 @@ According to the content that needs to be updated, copy the following file to th
 - update the config file：mks_config.txt  
 - update images：         mks_pic  
 - update font：           mks_font  
-- pdate TFT firmware：   mkstft28.bin  
+- update TFT firmware：   mkstft28.bin  
 - update Wifi firmware：  MksWifi.bin  
 
 ## Note
