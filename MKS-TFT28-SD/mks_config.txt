@@ -146,23 +146,27 @@ It will auto heat up if the current temp doesn't reach the target.
 ##### Customization: bmp_custom{1..7}.bin #######
 
 #set number of  "More" button 
->moreitem_pic_cnt:4
+>moreitem_pic_cnt:5
 
 #edit command for 1~7 "More" button,each command must be separated by semicolon ";"
 # PARK
 >moreitem_button1_cmd:G91;G1 Z10;G28 X0;G90;G1 Y155;
-# PLA
->moreitem_button2_cmd:M140 S50;M104 S205;
-# PETG
->moreitem_button3_cmd:M140 S65;M104 S230;
-# ABS
->moreitem_button4_cmd:M110 S100;M104 S235;
 
->moreitem_button5_cmd:G28 X0;
+# Factory default EEPROM
+>moreitem_button2_cmd:M502;M500;
+
+
+# PLA
+>moreitem_button3_cmd:M140 S50;M104 S205;
+# PETG
+>moreitem_button4_cmd:M140 S65;M104 S230;
+# ABS
+>moreitem_button5_cmd:M110 S100;M104 S235;
+
 
 >moreitem_button6_cmd:G28 Y0;
 
->moreitem_button7_cmd:G28 Z0;
+>moreitem_button7_cmd:G28 X0;
 
 #---------------------------------------------------------------------------------
 ##### Display More(Printing) #######
