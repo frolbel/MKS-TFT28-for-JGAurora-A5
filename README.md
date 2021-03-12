@@ -12,7 +12,7 @@ and current UI:
 
 ## Updating firmware
 
-According to the content that needs to be updated, copy the following file to the SD card from [MKS-TFT28-SD](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5/tree/main/MKS-TFT28-SD) folder:
+According to the content that needs to be updated, copy the following file to the SD card from [MKS-TFT28-SD](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5/tree/main/MKS-TFT28-SD)([JGAuroraA5-TFT28-VX..X.zip](https://github.com/frolbel/MKS-TFT28-for-JGAurora-A5/releases))folder:
 
 - update the config file：mks_config.txt  
 - update images：         mks_pic  
